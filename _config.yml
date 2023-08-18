@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Richard Krajnyik # add your name
 author-img: richard-krajnyik.jpg # add your photo
-about-author: I am a QA professional that is skilled in various forms of testing. If you are looking for someone to test your Desktop, Web or Mobile applications, you can contact me on:  # add description
+about-author: I am a QA professional that is skilled in various forms of testing. If you are looking for someone to test your Desktop, Web or Mobile applications, you can contact me on  # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: PowerOf # add your Github handle
