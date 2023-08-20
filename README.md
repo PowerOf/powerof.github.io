@@ -1,4 +1,4 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+<!-- # Flexible-Jekyll is a simple and clean theme for Jekyll
 
 ![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
@@ -28,4 +28,4 @@ Fork the ``master`` branch and follow the [Jekyll Installation Documentation](ht
 
 ## License
 
-GNU General Public License v3.0
+GNU General Public License v3.0 -->

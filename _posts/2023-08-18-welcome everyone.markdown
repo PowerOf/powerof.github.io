@@ -9,7 +9,6 @@ tags: [Productivity, Software] # add tag
 
 Welcome to my project portfolio page!
 
-
 ### Project Showcase:
 
 QA projects:
