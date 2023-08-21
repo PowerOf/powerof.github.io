@@ -1,0 +1,21 @@
+---
+layout: post
+title: Project C
+date: 2023-08-21 00:00:00 +0300
+description: Implementing Cypress for an example Java project # Add post description (optional)
+img: software.jpg # Add image post (optional)
+tags: [Productivity, Software] # add tag
+---
+
+Project C
+
+Today we are working on looking at implementing automated tests for a Java-based project.
+
+We need 2 things for this: The project itself, and example tests that we are doing.
+
+We are looking for a quick setup and a wide, standard coverage for UI and potentially API side. Tests should reside in the same repository as the App.
+
+
+
+
+RK

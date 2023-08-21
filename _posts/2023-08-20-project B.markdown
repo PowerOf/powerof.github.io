@@ -1,0 +1,60 @@
+---
+layout: post
+title: Project B
+date: 2023-08-20 00:00:00 +0300
+description: Creating a mental health guardian app! # Add post description (optional)
+img: software.jpg # Add image post (optional)
+tags: [Productivity, Software] # add tag
+---
+
+Second project - Project B
+
+Yesterday I was waiting at the JobCentre(yes really) while I had an idea that as usual looked too ambitious.
+
+Basically I was wondering if it's possible to build a filter for your phone; or PC through AI to help you focus on what you need to do through the day.
+
+Use cases: 
+AI assistant warns you when you're looking at social media a lot;
+AI gives context to posts on reddit that you don't understand, or make you too emotional;
+AI hides social media posts that are a waste of time;
+You can call AI and it would respond to you with advice and help you through tough times.
+
+Yeah I went there. An AI guardian for your mental health.
+
+Basically if we are sticking to use case #3 it's a sentiment analysis not to promote engagement to content, but to protect your own mental health.
+
+<button class ="spoiler-button">Extended Premise, click if you'd like to read it</button> 
+<div class ="spoiler" hidden>It would go against a lot of companies' goals, which is to make more profit by breaking your resolve to buying their stuff. But bloody hell, the internet has changed so much. Nowadays you can't pick up your phone without seeing a few notifications, whole content networks exist for the sole reason to market products to you, to make you interested in things that you didn't know existed before.
+Add that it's actually been proven that social media consumption is negatively correlated to mental health; but they make it so difficult to avoid now due to everyone being there. If you want to make new or maintain your existing relationships, you have to wade through promoted posts and adverts; You are ushered to use apps but nearly every single one of them are built on the premise that you buy one of several levels of paid premium access; otherwise you are stuck with a barebones and often almost unusable free version.
+Increased efforts of cracking down on adblocking and not putting users' mental health first. Users are marketed new smartphones and other devices daily just so you can buy the newest model, with questionable improvements(if any).
+
+There is not much effort to push back on the literal piles of popups and you have to accept cookies on every website ever. Users have to fight their devices just to view news websites. Social media sites thrive on giving you content that makes you come back for more - even if you feel worse after reading/watching and have wasted a ton of time and energy - trying to sift through the literal thousands of cross-posted circulars coming from various bots and content farms.</div>
+
+How cool would it be if you had an a personal assistant that filters content for you; Someone that knows you. Someone that can also tell you how to do things. Someone that would look at your upcoming social media posts, and hide the useless ones, and keep the ones that are actually useful to you. Someone that looks out for you, even when you wouldn't be able to do it yourself.
+
+I've collapsed the premise but basically there are a few clear use cases (potentially more)
+After looking into this, I've focused on use case #3, which is looking like an automatic content sentiment analysis via AI.
+
+![Architecture diagram](/assets/img/architecture-ai-guardian.png)
+
+Let's continue in a follow-up post. I have prepared an OpenAI model that rates reddit posts, by sentiment and value. This would be part of the Assistant Decision Framework / Decision engine.
+
+We need to work on a frontend that will send queries to the OpenAI API and based on the response, it should filter out posts that score lower than a for now (hardcoded) threshold. It hides posts by interacting with the dom itself.
+This also needs to be performant and basically ensure user is protected from seeing a lot of disturbing content quickly. User should be shown valuable content that is at least somewhat positive.
+I have experimented with the model looking only at the title and it's actually quite accurate for the rest of the post. This will make it so we can read the DOM and not having to open up posts separately with the bot, and make the app much more performant.
+
+In the second phase:
+We can have the user manually adjust thresholds in the extension. It should be like a difficulty setting at the start of a game, eg.
+
+Select difficulty:
+1. Easy
+1. Medium
+1. Hard
+1. Extra hard
+
+Also need to implent a data storage of the data that comes out of this. Need to think about what is necessary to store. Eg. authentication and user data and preferences. Also how is this connected to the browser itself.
+
+
+
+
+RK
