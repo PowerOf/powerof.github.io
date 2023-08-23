@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project B Update '#1 - Reddit content filter'
-date: 2023-08-20 00:00:00 +0300
+date: 2023-08-23 00:00:00 +0300
 description: Describing what we achieved so far # Add post description (optional)
 img: software.jpg # Add image post (optional)
 tags: [Productivity, Software] # add tag
