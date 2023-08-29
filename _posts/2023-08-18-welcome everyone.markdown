@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome Everyone!
+pinned: true
 date: 2023-08-18 00:00:00 +0300
 description: Welcome Everyone! # Add post description (optional)
 img: software.jpg # Add image post (optional)
