@@ -886,6 +886,7 @@ table tfoot td {
 .wrapper {
   max-width: 1250px;
   position: relative;
+  display: flex;
 }
 
 .post, .article-page {
@@ -917,6 +918,7 @@ table tfoot td {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+   flex: 0 0 240px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -930,7 +932,6 @@ table tfoot td {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
@@ -1002,7 +1003,6 @@ table tfoot td {
 
 .content-box {
   padding: 20px;
-  padding-left: 260px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1366,7 +1366,7 @@ a.newer-posts:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
-    width: 48%;
+    width: 98%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;
@@ -1392,7 +1392,7 @@ a.newer-posts:hover {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .sidebar {
-    position: relative;
+    position: sticky;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1412,13 +1412,9 @@ a.newer-posts:hover {
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
-  .sidebar footer {
-    margin-bottom: 10px;
-  }
   .about {
     text-align: center;
     max-width: 480px;
-    margin: 10px auto auto;
   }
   .about img {
     width: 100px;
@@ -1445,9 +1441,6 @@ a.newer-posts:hover {
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-  }
-  .contact-title, .copyright {
-    display: none;
   }
 }
 
