@@ -918,6 +918,7 @@ table tfoot td {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+   flex: 0 0 240px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -931,7 +932,6 @@ table tfoot td {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
@@ -1003,7 +1003,6 @@ table tfoot td {
 
 .content-box {
   padding: 20px;
-  padding-left: 260px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1412,9 +1411,6 @@ a.newer-posts:hover {
     background-color: #ffffff;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  }
-  .sidebar footer {
-    margin-bottom: 10px;
   }
   .about {
     text-align: center;
