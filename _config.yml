@@ -1,8 +1,9 @@
 title: Richard Krajnyik project portfolio
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+  # Write an awesome description for your new site here. You can edit this
+  # line in _config.yml. It will appear in your document head meta (for
+  # Google search results) and in your feed.xml site description.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://powerof.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,7 +12,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Richard Krajnyik # add your name
 author-img: richard-krajnyik.jpg # add your photo
-about-author: I am a Software Engineer with close to 10 years background in testing Desktop, Web and Mobile applications. Currently working working improving my portfolio and learning every day. You can check out my projects in the pinned post on the right side! If you'd like to get in touch, don't hesitate to reach out on the contacts below.  # add description
+about-author: I am a Software Engineer with close to 10 years background testing Desktop, Web and Mobile applications. You can check out my various projects in the pinned post on the right side! If you'd like to get in touch, don't hesitate to reach out on the contacts below.  # add description
 # social-twitter: # add your Twitter handle
 # social-facebook: # add your Facebook handle
 social-github: PowerOf # add your Github handle

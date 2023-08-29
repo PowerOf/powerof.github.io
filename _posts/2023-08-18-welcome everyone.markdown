@@ -27,7 +27,9 @@ Chrome Right click bookmark Extension [DEV]
 ### In Planning phase:
 
 Youtube channel and Patreon. [other]
+
 Playwright test project [QA]
+
 Chrome Extension Game Performance Predictor [DEV]
 
 [Latest update: 2023-08-29](/_posts/2023-08-29-multiple%20project%20updates.markdown)
