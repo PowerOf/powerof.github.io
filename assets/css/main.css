@@ -1419,7 +1419,6 @@ a.newer-posts:hover {
   .about {
     text-align: center;
     max-width: 480px;
-    margin: 10px auto auto;
   }
   .about img {
     width: 100px;
@@ -1447,9 +1446,6 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  /* .contact-title, .copyright {
-    display: none;
-  } */
 }
 
 /* Extra Small Devices, Phones */
