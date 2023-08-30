@@ -24,6 +24,9 @@ Portfolio Website [DEV]
 Chrome Right click bookmark Extension [DEV]
 [Repo](https://github.com/PowerOf/Chrome-Right-Click-Bookmark-Extension)
 
+Chrome Hide Elements Extension [DEV]
+[Repo](https://github.com/PowerOf/Chrome-Hide-elements-extension)
+
 ### In Planning phase:
 
 Youtube channel and Patreon. [other]
