@@ -49,11 +49,6 @@ I think doing a detailed post once a month is good. If there are more updates I 
      - There should be some way to remember past convos. Otherwise it's difficult to use
      - No starring convos
      - No saved themes or save/load settings, nothing
-     - 
-
-
-
-
 
 ### Project Y and Project P: Youtube and Patreon
 - State: No updates, aside from getting their own letters. It is on the cards though.
