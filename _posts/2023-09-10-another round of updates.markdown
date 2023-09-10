@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mid-September round of updates
-date: 2023-03-10 00:00:00 +0300
+date: 2023-09-10 00:00:00 +0300
 description: Updates on various projects # Add post description (optional)
 img: software.jpg # Add image post (optional)
 tags: [Productivity, Software] # add tag
