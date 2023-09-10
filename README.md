@@ -1,3 +1,14 @@
+This project is being used as my project portfolio website.
+
+It is based on a fork of Flexible-Jekyll theme by Artem Sheludko.
+I take no credit for the theme itself, although I made some changes to fit better with the goals of this project.
+
+Changes included but not limited to:
+- a more consistent scaling across different resolutions
+- only included links to professional contact details
+- added support for spoiler tags
+
+
 <!-- # Flexible-Jekyll is a simple and clean theme for Jekyll
 
 ![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
