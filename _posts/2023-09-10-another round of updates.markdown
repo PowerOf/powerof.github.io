@@ -95,7 +95,8 @@ AI assistant that can schedule meetings, write emails, etc.
 AI assistant that can represent you on meetings, talk/chat for you.
 - How many times did we dream about this? Delegating an AI to go and impersonate you or represent you might be on the wilder end, but in general, this would be extremely useful if you are sick, or have to be in 2 places at once. The AI would respond based on your input, and collect the meeting's chat and listen in to what people are talking about and summarise it for you after the meeting.
 
-
+### Secret app
+- This is something I've been planning to add here for a while now. It's a bit of a secret project, but expect some updates very soon. 
 
 
 ###

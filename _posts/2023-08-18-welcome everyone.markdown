@@ -43,5 +43,4 @@ Chrome Hide Elements Extension [DEV]
 - Usability Enhancements for various websites, Twitter, Youtube, Google, LinkedIn
 - AI assistants for practical things
 
-
-[Latest update: 2023-08-29](_posts\2023-09-10-another round of updates.markdown)
+[Latest update: 2023-09-10]({{ site.base_url }}/another-round-of-updates/)
